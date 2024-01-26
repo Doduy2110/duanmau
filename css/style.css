@@ -1,0 +1,265 @@
+.boxcenter{
+    width: 70%;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+.row{
+    float: left;
+    width: 100%;
+
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%;
+}
+.demo{
+    background-color: rgb(234, 166, 166);
+    min-height: 100px;
+}
+.header{
+    background-color: rgb(219, 113, 0);
+    
+
+    border-radius: 5px;
+    color:white;
+}
+.footer{
+    background-color:rgb(219, 113, 0) ;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.header h1{
+    margin: 20px;
+    font-size: 1.5vw;
+}
+.menu{
+    background-color: black;
+    border-radius: 5px;
+    color: #CCC;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.boxtitle{
+    color: #333;
+    background-color: #EEE;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #CCC;
+}
+.boxcontent{
+    border-left: 1px #ccc solid ;
+    border-right:1px #ccc solid ;
+    border-bottom: 1px #ccc solid;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxcontent2{
+    border-left: 1px #ccc solid ;
+    border-right:1px #ccc solid ;
+    min-height: 200px;
+   
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #CCC;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+}
+.boxsp{
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+}
+.boxsp .img{
+    min-height: 230px;
+    text-align: center;
+}
+.boxsp a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+.boxsp a:hover{
+    color: rgb(219, 113, 0);
+}
+.img img{
+
+    height: 220px;
+}
+.menu ul{
+    padding: 10px;
+
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+
+}
+.menu a:hover{
+    color:rgb(219, 113, 0);
+    
+}
+/*box tài khoản*/
+.formtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type ="password"],
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.formtaikhoan input[type ="checkbox"]{
+    border-radius: 5px;
+
+}
+.formtaikhoan input[type ="submit"],
+.formcontent input[type ="submit"],
+.formcontent input[type ="reset"],
+.formcontent input[type ="button"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+.formtaikhoan input[type ="submit"]:hover,
+.formcontent input[type ="submit"]:hover,
+.formcontent input[type ="button"]:hover{
+   
+   
+    background-color: rgb(84, 241, 102);
+}
+.formcontent input[type ="reset"]:hover{
+    background-color: rgb(250, 65, 65);
+}
+.formtaikhoan li a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+.formtaikhoan li a:hover {
+  
+    color: rgb(219, 113, 0);
+}
+.menudoc ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.menudoc ul li{
+    padding: 10px 20px; 
+    border-bottom: 1px solid #CCC;
+}
+.menudoc ul li:hover{
+    background-color: #EEE;
+}
+.menudoc ul li a {
+    text-decoration: none;
+    color: #666;
+}
+.menudoc ul li a:hover {
+    
+    color:rgb(219, 113, 0);
+}
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+}
+.top10 img{
+width: 20%;
+height: 50px;
+float: left;
+margin-right: 10px;
+border: 1px solid #CCC;
+}
+.top10 a{
+    text-decoration: none;
+    color: #333;
+}
+.top10 a:hover{
+   
+    color: rgb(219, 113, 0);
+}
+/*Admin */
+.formtitle{
+    background-color: rgb(0, 0, 0);
+    padding:  0 50px;
+
+    border-radius: 5px;
+    color:white;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.formdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+/* .formdsloai table th:nth-child(1){
+    width: 10%;
+    padding: 20px;
+    background-color:rgb(219, 113, 0) ;
+}
+.formdsloai table th:nth-child(2){
+    width: 30%;
+    background-color:rgb(219, 113, 0) ;
+}
+
+.formdsloai table th:nth-child(3){
+    width: 40%;
+    background-color:rgb(219, 113, 0) ;
+}
+.formdsloai table th:nth-child(4){
+    width: 20%;
+    background-color:rgb(219, 113, 0) ;
+} */
+.formdsloai table td{
+    padding: 10px 20px;
+    border: 1px solid #CCC;
+}
+.formdsloai table th{
+    border: 1px solid #CCC;
+    font-size: 14px;
+}
